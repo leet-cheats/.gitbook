@@ -25,62 +25,191 @@ mp.blips.new(spriteId: number, position: mp.Vector3,
     })
 ```
 
-### Проверить существование
-
 ```typescript
-mp.Blip.doesExist(): boolean
-```
-
-### Прозрачность
-
-Прозрачность метки регулируется целым числом в диапазоне от 0 до 255.
-
-<pre class="language-typescript"><code class="lang-typescript"><strong>mp.Blip.getAlpha(): number // Получить
-</strong></code></pre>
-
-```typescript
-mp.Blip.setAlpha(alpha: number): void // Установить
-```
-
-### Позиция
-
-Позиция метки в игровом трёхмерном мире. Координата Z может быть 0.
-
-```typescript
-mp.Blip.getCoords(): mp.Vector3 // Получить
-```
-
-```typescript
-mp.Blip.setCoords(position: mp.Vector3): void // Установить
-```
-
-### Цвет
-
-Цвет метки является игровым идентификатором GTA5 из [таблицы цветов](https://wiki.rage.mp/?title=Blips#Blip\_colors).
-
-```typescript
-mp.Blip.getColour(): number // Получить
-```
-
-```typescript
-mp.Blip.setColour(colorId: number): void // Установить
-```
-
-### Неизвестно
-
 mp.Blip.addTextComponentSubstringName
-
-### Проверить существование метки
-
+```
+### Проверить существование
+```typescript
 mp.Blip.doesExist
-
+```
+### 
+```typescript
 mp.Blip.endTextCommandSetName
-
-mp.Blip.getAlpha mp.Blip.getColour
-
-mp.Blip.getCoords mp.Blip.getFirstInfoId
-
+```
+### Получить прозрачность
+```typescript
+mp.Blip.getAlpha
+```
+### Получить цвет
+```typescript
+mp.Blip.getColour
+```
+### Получить позицию
+```typescript
+mp.Blip.getCoords
+```
+### 
+```typescript
+mp.Blip.getFirstInfoId
+```
+### 
+```typescript
 mp.Blip.getInfoIdDisplay
-
+```
+### 
+```typescript
 mp.Blip.getInfoIdEntityIndex
-
+```
+### 
+```typescript
+mp.Blip.getInfoIdPickupIndex
+```
+### 
+```typescript
+mp.Blip.getInfoIdType
+```
+###
+```typescript
+mp.Blip.getHudColour
+```
+### 
+```typescript
+mp.Blip.getNextInfoId
+```
+### Получить спрайт
+```typescript
+mp.Blip.getSprite
+```
+### Мигает ли метка
+```typescript
+mp.Blip.isFlashing
+```
+### 
+```typescript
+mp.Blip.isMissionCreator
+```
+### Видна ли метка на мини-карте
+```typescript
+mp.Blip.isOnMinimap
+```
+### Показывается ли лишь вблизи
+```typescript
+mp.Blip.isShortRange
+```
+### 
+```typescript
+mp.Blip.hideNumberOn
+```
+### 
+```typescript
+mp.Blip.pulse
+```
+### Установить прозрачность
+```typescript
+mp.Blip.setAlpha
+```
+### Установить дружелюбие
+```typescript
+mp.Blip.setAsFriendly
+```
+### 
+```typescript
+mp.Blip.setAsMissionCreator
+```
+### Установить показ лишь вблизи
+```typescript
+mp.Blip.setAsShortRange
+```
+### 
+```typescript
+mp.Blip.setBright
+```
+### Установить категорию
+```typescript
+mp.Blip.setCategory
+```
+### Установить цвет
+```typescript
+mp.Blip.setColour
+```
+### Установить поизицию
+```typescript
+mp.Blip.setCoords(position: mp.Vector3): void
+```
+### 
+```typescript
+mp.Blip.setDisplay
+```
+### 
+```typescript
+mp.Blip.setFade(opacity: number, duration: number): void
+```
+### Включить мигание
+```typescript
+mp.Blip.setFlashes(toggle: boolean): void
+```
+### 
+```typescript
+mp.Blip.setFlashesAlternate(toggle: boolean): void
+```
+### 
+```typescript
+mp.Blip.setFlashInterval
+```
+### 
+```typescript
+mp.Blip.setFlashTimer(duration: number): void
+```
+### 
+```typescript
+mp.Blip.setHighDetail
+```
+### 
+```typescript
+mp.Blip.setNameFromTextFile
+```
+### 
+```typescript
+mp.Blip.setNameToPlayerName
+```
+### Установить порядок в легенде
+```typescript
+mp.Blip.setPriority(priority: boolean): void
+```
+### Установить угол направления
+```typescript
+mp.Blip.setRotation(directionAngle: number): void
+```
+### Включить показ маршрута
+```typescript
+mp.Blip.setRoute(enabled: boolean): void
+```
+### Установить цвет маршрута
+```typescript
+mp.Blip.setRouteColour(color: number): void
+```
+### Установить размер
+```typescript
+mp.Blip.setScale(scale: number): void
+```
+### Установить вторичный цвет
+```typescript
+mp.Blip.setSecondaryColour(r: number, g: number, b: number): void
+```
+### 
+```typescript
+mp.Blip.setShowCone(toggle: boolean): void
+```
+### Включить индикатор направления
+Индикатор направления используется в GTA:O для игроков отображаемых на мини-карте.
+```typescript
+mp.Blip.setShowHeadingIndicator(toggle: boolean): void
+```
+### Установить спрайт
+```typescript
+mp.Blip.setSprite(spriteId: number): void
+```
+### 
+```typescript
+mp.Blip.showNumberOn
+```
