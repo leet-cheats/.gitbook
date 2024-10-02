@@ -8,7 +8,7 @@ icon: globe
 
 | Пулы объектов                     | Остальные модули |
 | --------------------------------- | ---------------- |
-| mp.blips                          | mp.discord       |
+| [mp.blips](metki.md)              | mp.discord       |
 | mp.browsers                       | mp.events        |
 | mp.cameras                        | mp.game          |
 | mp.checkpoints                    | mp.gui           |
