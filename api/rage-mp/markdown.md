@@ -4,6 +4,8 @@ icon: text-size
 
 # Надписи
 
+### Создать надпись
+
 {% code fullWidth="false" %}
 ```typescript
 mp.labels.new(text: string, position: mp.Vector3, 
@@ -16,6 +18,8 @@ mp.labels.new(text: string, position: mp.Vector3,
     }): mp.Label
 ```
 {% endcode %}
+
+### Уничтожить надпись
 
 ```typescript
 mp.Label.destroy(): void

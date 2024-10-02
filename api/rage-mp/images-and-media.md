@@ -4,6 +4,8 @@ icon: thumbtack
 
 # Маркеры
 
+### Создать маркер
+
 ```typescript
 mp.markers.new(type: number, position: mp.Vector3, scale: number,
     {
