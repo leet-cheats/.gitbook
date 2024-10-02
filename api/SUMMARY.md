@@ -9,3 +9,4 @@
 * [Оружие](rage-mp/editor.md)
 * [Надписи](rage-mp/markdown.md)
 * [Маркеры](rage-mp/images-and-media.md)
+* [Игроки](rage-mp/igroki.md)
