@@ -41,6 +41,7 @@ mp.labels.new(text: string, position: Vector3,
 ```
 
 ## Примеры
+---
 ```typescript
 // Создаём
 const label = mp.labels.new("Welcome to Los Santos", new mp.Vector3(-431.88, 1146.86, 327),
