@@ -3,10 +3,32 @@ icon: text-size
 ---
 
 # Надписи
+## Свойства
+---
+### Текст
+```typescript
+Label.text: string
+```
+### Цвет
+```typescript
+Label.color: Array<number>
+```
+### Тип шрифта
+```typescript
+Label.font: number
+```
+### Дальность отрисовки
+```typescript
+Label.drawDistance: number
+```
+### Показ через стены
+```typescript
+Label.los: boolean
+```
 
-### Создать надпись
-
-{% code fullWidth="false" %}
+## Функции
+---
+### Создать
 ```typescript
 mp.labels.new(text: string, position: mp.Vector3, 
     { 
@@ -15,13 +37,5 @@ mp.labels.new(text: string, position: mp.Vector3,
         drawDistance: number, 
         color: [number, number, number, number], 
         dimension: number
-    }): mp.Label
+    }): Label
 ```
-{% endcode %}
-
-### Уничтожить надпись
-
-```typescript
-mp.Label.destroy(): void
-```
-
