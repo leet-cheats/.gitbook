@@ -47,3 +47,23 @@ Marker.getColor(): Array<number> // Массив из 4-х целых чисел
 ```typescript
 Marker.setColor(r: number, g: number, b: number, a: number): void
 ```
+
+## Примеры
+---
+```typescript
+// Создаём
+const marker = mp.markers.new(29, new mp.Vector3(-431.88, 1146.86, 327), 1.0,
+    {
+        direction: new mp.Vector3(0, 0, 0),
+        rotation: new mp.Vector3(0, 0, 0),
+        color: [255, 0, 0, 255],
+        visible: true,
+        dimension: 0
+    });
+
+// Устанавливаем размер
+marker.scale = 2.0;
+
+// Уничтожаем
+marker.destroy();
+```
