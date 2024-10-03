@@ -4,6 +4,7 @@ icon: thumbtack
 
 # Маркеры
 ## Свойства
+--
 ### Размер маркера
 ```typescript
 Marker.scale: number
@@ -18,6 +19,7 @@ Marker.visible: boolean
 ```
 
 ## Функции
+--
 ### Создать маркер
 ```typescript
 mp.markers.new(type: number, position: mp.Vector3, scale: number,
@@ -27,7 +29,7 @@ mp.markers.new(type: number, position: mp.Vector3, scale: number,
         color: [number, number, number, number],
         visible: boolean,
         dimension: number
-    }): mp.Marker
+    }): Marker
 ```
 ### Показать маркер для
 ```typescript
