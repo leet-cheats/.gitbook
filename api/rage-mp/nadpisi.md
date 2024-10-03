@@ -30,7 +30,7 @@ Label.los: boolean
 ---
 ### Создать
 ```typescript
-mp.labels.new(text: string, position: mp.Vector3, 
+mp.labels.new(text: string, position: Vector3, 
     { 
         lineOfSight: boolean, 
         fontId: number, 
