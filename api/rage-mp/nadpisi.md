@@ -39,3 +39,20 @@ mp.labels.new(text: string, position: Vector3,
         dimension: number
     }): Label
 ```
+
+## Примеры
+```typescript
+// Создаём
+const label = mp.labels.new("Welcome to Los Santos", new mp.Vector3(-431.88, 1146.86, 327),
+    {
+        los: false,
+        font: 1,
+        drawDistance: 100,
+    });
+
+// Устанавливаем показ через стены
+label.los = true;
+
+// Уничтожаем
+label.destroy();
+```
