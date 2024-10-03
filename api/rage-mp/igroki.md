@@ -41,3 +41,41 @@ Player.addArmourTo(armourAmount: number): void
 ```typescript
 Player.applyDamageTo(damageAmount: number, includingArmor: boolean);
 ```
+
+## Состояние
+---
+### Является игроком
+Функция возвращает `true`, если данный пешеход имеет действительный указатель на `CPlayerInfo` в своем классе `CPed`.
+```typescript
+Player.isAPlayer(): boolean
+```
+
+### Падает
+```typescript
+Player.isFalling(): boolean
+```
+
+### Ранен
+```typescript
+Player.isHurt(): boolean
+```
+
+### Находится в лодке
+```typescript
+Player.isInAnyBoat(): boolean
+```
+
+### Находится в вертолёте
+```typescript
+Player.isInAnyHeli(): boolean
+```
+
+### Находится в самолёте
+```typescript
+Player.isInAnyPlane(): boolean
+```
+
+### Находится в полицейской машине
+```typescript
+Player.isInAnyPoliceVehicle(): boolean
+```
