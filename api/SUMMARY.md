@@ -7,7 +7,7 @@
 * [Основное](rage-mp/osnovnoe.md)
 * [Метки](rage-mp/metki.md)
 * [Оружие](rage-mp/editor.md)
-* [Надписи](rage-mp/markdown.md)
+* [Надписи](rage-mp/nadpisi.md)
 * [Маркеры](rage-mp/markery.md)
 * [Игроки](rage-mp/igroki/README.md)
   * [Задачи](rage-mp/igroki/zadachi.md)

@@ -13,7 +13,7 @@ icon: globe
 | mp.cameras               | mp.game          |
 | mp.checkpoints           | mp.gui           |
 | mp.colshapes             | mp.nametags      |
-| [mp.labels](markdown.md) | mp.raycasting    |
+| [mp.labels](nadpisi.md)  | mp.raycasting    |
 | [mp.markers](markery.md) | mp.storage       |
 | mp.objects               | mp.voiceChat     |
 | mp.players               | mp.user          |
