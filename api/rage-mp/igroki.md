@@ -50,68 +50,67 @@ Player.applyDamageTo(damageAmount: number, includingArmor: boolean);
 Player.isAPlayer(): boolean
 ```
 
-```markdown
-## Игрок активен в сценарии
+### Игрок активен в сценарии
 ```typescript
 Player.isActiveInScenario(): boolean
 ```
 
-## Игрок целится из укрытия
+### Игрок целится из укрытия
 ```typescript
 Player.isAimingFromCover(): boolean
 ```
 
-## Игрока арестовывают
+### Игрока арестовывают
 ```typescript
 Player.isBeingArrested(): boolean
 ```
 
-## Игрока угоняют
+### Игрока угоняют
 ```typescript
 Player.isBeingJacked(): boolean
 ```
 
-## Игрока убивают скрытно
+### Игрока убивают скрытно
 ```typescript
 Player.isBeingStealthKilled(): boolean
 ```
 
-## Игрока оглушают
+### Игрока оглушают
 ```typescript
 Player.isBeingStunned(): boolean
 ```
 
-## Игрок лазает
+### Игрок лазает
 ```typescript
 Player.isClimbing(): boolean
 ```
 
-## Вариация компонента действительна
+### Вариация компонента действительна
 ```typescript
 Player.isComponentVariationValid(): boolean
 ```
 
-## Разговор закончен
+### Разговор закончен
 ```typescript
 Player.isConversationDead(): boolean
 ```
 
-## Игрок в наручниках
+### Игрок в наручниках
 ```typescript
 Player.isCuffed(): boolean
 ```
 
-## Игрок мертв или умирает
+### Игрок мертв или умирает
 ```typescript
 Player.isDeadOrDying(): boolean
 ```
 
-## Игрок ныряет
+### Игрок ныряет
 ```typescript
 Player.isDiving(): boolean
 ```
 
-## Игрок совершает стрельбу на ходу
+### Игрок совершает стрельбу на ходу
 ```typescript
 Player.isDoingDriveby(): boolean
 ```
@@ -523,7 +522,6 @@ Player.isRunningRagdollTask(): boolean
 
 ## Задачи
 ---
-
 ### Достичь направления угла поворота
 ```typescript
 Player.taskAchieveHeading(heading: number): void;
